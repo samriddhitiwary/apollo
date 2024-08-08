@@ -17,18 +17,18 @@
 
 .img{
     margin-left: 10%;
-    width: 5%;
+    width: 100%;
     border-color: black;
 }
 .search{
     border-color: black 2px;
-    width:30%;  
-    margin-left: 30%;
+    width:50%;  
+    /* margin-left: 30%; */
    display: inline-block;
-   margin-top: 0%;
+   margin-top: 1%;
 
 }
-.main{
+.headerFlexBox{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
