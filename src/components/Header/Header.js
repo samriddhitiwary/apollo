@@ -22,9 +22,9 @@ const Header = () => {
       </div>
 
 
-      <div className='grid-container'>
+      <div className='headerFlexBox'>
         <div>
-          <img className='img' src='images/Header/logo.svg'></img>
+          <img className='img' src='images/Header/logo.svg' alt='Testing'></img>
         </div>
 
         <div className='search'>
@@ -39,6 +39,11 @@ const Header = () => {
             </Button>
           </InputGroup>
           <br></br>
+        </div>
+
+        <div>
+          <p>Emergency : 1066</p>
+          <p>Apollo Lifeline: 1-800-266-2443</p>
         </div>
         <br></br>
       </div>
