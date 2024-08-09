@@ -42,8 +42,8 @@ const Header = () => {
         </div>
 
         <div>
-          <p>Emergency : 1066</p>
-          <p>Apollo Lifeline: 1-800-266-2443</p>
+          <p>Emergency : <Button className='header_but' variant="light"> ☎ 1066</Button></p>
+          <p>Apollo Lifeline: <Button className='header_but' variant="light"> ☎ 1-800-266-2443</Button> </p>
         </div>
         <br></br>
       </div>
