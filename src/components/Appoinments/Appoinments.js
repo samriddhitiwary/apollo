@@ -13,27 +13,27 @@ const Appoinments = () => {
 
         <Button className='but' variant="light">
             <img src='images/Appointments/img2.svg'></img>
-            <p>Book Appointment</p>
-        </Button> 
-
-        <Button className='but' variant="light">
-            <img src='images/Appointments/img3.svg'></img>
             <p>Book Health Check Up</p>
         </Button> 
 
         <Button className='but' variant="light">
+            <img src='images/Appointments/img3.svg'></img>
+            <p>Consult Online</p>
+        </Button> 
+
+        <Button className='but' variant="light">
             <img src='images/Appointments/img4.svg'></img>
-            <p>Book Appointment</p>
+            <p>Buy Medicine</p>
         </Button> 
 
         <Button className='but' variant="light">
             <img src='images/Appointments/img5.svg'></img>
-            <p>Book Appointment</p>
+            <p>Find Hospital</p>
         </Button> 
 
         <Button className='but' variant="light">
             <img src='images/Appointments/img6.svg'></img>
-            <p>Book Appointment</p>
+            <p>View Health Record</p>
         </Button> 
         
         

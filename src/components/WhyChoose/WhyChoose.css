@@ -66,16 +66,16 @@ h3 {
 
 .why_choose_img {
     display: flex;
-    justify-content: center; /* Horizontally centers the image */
-    align-items: center; /* Vertically centers the image */
-    height: 50%; /* Ensure the container takes up full height */
+    justify-content: center; 
+    align-items: center; 
+    height: 50%; 
 }
 
 .why_choose_main {
     border-radius: 5%;
     margin-top: 45%;
-    max-width: 70%; /* Ensures the image doesn't overflow the container */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 70%; 
+    height: auto; 
 }
 .title{
     margin-left: 10%;

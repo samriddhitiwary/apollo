@@ -13,10 +13,18 @@
   import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hospitals from './components/Hospitals/Hospitals';
 import FooterAppointments from './components/FooterAppointments/FooterAppointments';
+import PatientCare from './components/PatientCare/PatientCare';
+import NewAtApollo from './components/NewAtApollo/NewAtApollo';
+import Footer from './components/Footer/Footer';
+import { useEffect } from 'react'; 
 
   function App() {
+    useEffect(() => {
+      document.title = 'MultiSpecial';
+    }, []);
     return (
       <>
+     
       <Header></Header>
       <ClinicCarousel></ClinicCarousel>   
       <Appoinments></Appoinments>
@@ -36,8 +44,12 @@ import FooterAppointments from './components/FooterAppointments/FooterAppointmen
       <br></br>
       <br></br>
       <WhyChoose></WhyChoose>
+      
       <Hospitals></Hospitals>
+      <PatientCare></PatientCare>
+      <NewAtApollo></NewAtApollo>
       <FooterAppointments></FooterAppointments>
+      <Footer></Footer>
       </>
       
       

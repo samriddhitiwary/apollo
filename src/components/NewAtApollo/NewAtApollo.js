@@ -5,18 +5,55 @@ import './NewAtApollo.css';
 
 const NewAtApollo = () => {
   return (
-    <div>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <div className='NewAtApollo_body'>
+    <div className='NewAtApollo_Header'><h3><b className='ApolloHeader'>What’s new at Apollo</b></h3></div>
+    <div className='NewAtApollo_full_body'>
+     
+    <Card className='NewAtApollo_Card'  style={{ width: '18rem' }}>
+      <img src='images/NewAtApollo/img1.jpg'></img>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>A Yemnei Patient with Complex Mitral Valve</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          The life of a 38-year-old Yemeni patientwith chronic Mitral Valve Disease(MVD)...
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Read More</Button>
       </Card.Body>
     </Card>
+
+    <Card className='NewAtApollo_Card' style={{ width: '18rem' }}>
+      <img src='images/NewAtApollo/img2.jpg'></img>
+      <Card.Body>
+        <Card.Title>A 71-year-old patient with two prosthetic cardiac...</Card.Title>
+        <Card.Text>
+          Apollo Hospital, Chennai proudly announces a landmark achievement in Cardiology...
+        </Card.Text>
+        <Button variant="primary">Read More</Button>
+      </Card.Body>
+    </Card>
+
+    <Card className='NewAtApollo_Card' style={{ width: '18rem' }}>
+      <img src='images/NewAtApollo/img3.jpg'></img>
+      <Card.Body>
+        <Card.Title>Apollo Hospitals, Chennai uses oxygen therapy to prevent foot amputation of...</Card.Title>
+        <Card.Text>
+          In a remarkable medical breakthrough, Apollo Hospital Chennai has successful...
+        </Card.Text>
+        <Button variant="primary">Read More</Button>
+      </Card.Body>
+    </Card>
+
+    <Card className='NewAtApollo_Card' style={{ width: '18rem' }}>
+      <img src='images/NewAtApollo/img4.jpg'></img>
+      <Card.Body>
+        <Card.Title>4th Apollo Annual Proton Practicum</Card.Title>
+        <Card.Text>
+          Improving Survival and Survivorship in Paediatric and CNS Tumours with Proton...
+        </Card.Text>
+        <Button variant="primary">Read More</Button>
+      </Card.Body>
+    </Card>
+    </div>
+    <br></br>
     </div>
   )
 }
