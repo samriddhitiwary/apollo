@@ -20,7 +20,7 @@ import { useEffect } from 'react';
 
   function App() {
     useEffect(() => {
-      document.title = 'MultiSpecial';
+      document.title = 'MultiSpeciality Hospital in India';
     }, []);
     return (
       <>
