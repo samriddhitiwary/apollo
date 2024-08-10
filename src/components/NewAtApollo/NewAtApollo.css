@@ -20,6 +20,7 @@
 }
 .NewAtApollo_body{
     background-color: #e9eff4;
+    flex-wrap: wrap;
 }
 .ApolloHeader{
     margin-top: 5%;
