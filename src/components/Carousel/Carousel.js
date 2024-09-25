@@ -7,10 +7,11 @@ function ClinicCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src='images/carousel/img1.jpg'
+          src='images/carousel/image1.jpg'
           alt="First slide"
+          style={{ objectFit: 'content', maxHeight: '30rem' }}
         />
-        
+
       </Carousel.Item>
 
       <Carousel.Item>
@@ -18,8 +19,9 @@ function ClinicCarousel() {
           className="d-block w-100"
           src='images/carousel/img2.jpg'
           alt="Second slide"
+          style={{ objectFit: 'cover', maxHeight: '30rem' }}
         />
-       
+
       </Carousel.Item>
 
       <Carousel.Item>
@@ -27,55 +29,60 @@ function ClinicCarousel() {
           className="d-block w-100"
           src='images/carousel/img3.jpg'
           alt="Third slide"
+          style={{ objectFit: 'cover', maxHeight: '30rem' }}
         />
-       </Carousel.Item>
+      </Carousel.Item>
 
-       <Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block w-100"
           src='images/carousel/img4.jpg'
           alt="Third slide"
+          style={{ objectFit: 'cover', maxHeight: '30rem' }}
         />
-       </Carousel.Item>
+      </Carousel.Item>
 
 
-       <Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block w-100"
           src='images/carousel/img5.jpg'
           alt="Third slide"
+          style={{ objectFit: 'cover', maxHeight: '30rem' }}
         />
-       </Carousel.Item>
+      </Carousel.Item>
 
 
 
-       <Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block w-100"
           src='images/carousel/img6.jpg'
           alt="Third slide"
+          style={{ objectFit: 'cover', maxHeight: '30rem' }}
         />
-       </Carousel.Item>
+      </Carousel.Item>
 
-       <Carousel.Item>
+      <Carousel.Item>
         <img
           className="d-block w-100"
-          src='images/carousel/img7.jpg'
+          src='images/carousel/imag1.jpg'
           alt="Third slide"
+          style={{ objectFit: 'cover', maxHeight: '30rem' }}
         />
-       </Carousel.Item>
-       
+      </Carousel.Item>
 
- 
 
-      
-      
-   
 
-      
+
+
+
+
+
+
 
     </Carousel>
-    
+
   );
 }
 

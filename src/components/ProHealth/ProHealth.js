@@ -17,9 +17,9 @@ const ProHealth = () => {
                     <br></br>
                     <p>ProHealth Program is a unique end-to-end personalized proactive health program that brings together predictive risk analysis, doctor-curated health packages, cutting-edge diagnostics with expert evaluation, and a personalized path to wellness, designed to make positive shifts – making you healthier</p>
                     <br></br>
-                    <p>This health program is based on Apollo's pioneering efforts in preventive care for almost 40 years and over 22 million health checks.</p>
+                    <p>This health program is based on Independent Living's pioneering efforts in preventive care for almost 40 years and over 22 million health checks.</p>
                     <br></br>
-                    <p>Apollo ProHealth program can PREDICT health risks, help PREVENT ailments, and OVERCOME lifestyle diseases where possible.</p>
+                    <p>Independent Living ProHealth program can PREDICT health risks, help PREVENT ailments, and OVERCOME lifestyle diseases where possible.</p>
                         <Button  className='ProHealth_btn'>Book ProHealth</Button>
 
                 </div>

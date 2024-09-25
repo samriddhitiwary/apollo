@@ -11,7 +11,7 @@ const Speciality = () => {
 
             </div>
             <br></br>
-            <p className='Speciality_Text'>Apollo Hospitals has dedicated Centres of Excellence for several key specialties and super specialties. They are unique and state of the art facilities spread across several of the Apollo hospital locations and each Centre of Excellence stands out as a citadel of world class clinical outcomes.</p>
+            <p className='Speciality_Text'>Digital healthcare improves access to care through telemedicine, enhances efficiency with electronic records, and enables personalized treatment using data and AI. It also reduces costs by minimizing in-person visits and administrative tasks.</p>
             <br></br>
             <br></br>
             <p className='Speciality_Text1'>Learn about the world class health care we provide</p>

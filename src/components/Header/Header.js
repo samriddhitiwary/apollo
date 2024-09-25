@@ -24,13 +24,13 @@ const Header = () => {
 
       <div className='headerFlexBox'>
         <div>
-          <img className='img' src='images/Header/logo.svg' alt='Testing'></img>
+          <img className='img' src='images/Header/logo.jpeg' alt='Testing'></img>
         </div>
 
         <div className='search'>
           <InputGroup>
             <Form.Control
-              placeholder="Search Doctor or Hospital"
+              placeholder="Explore Doctor Options... "
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
             />
@@ -42,8 +42,8 @@ const Header = () => {
         </div>
 
         <div>
-          <p>Emergency : <Button className='header_but' variant="light"> ☎ 1066</Button></p>
-          <p>Apollo Lifeline: <Button className='header_but' variant="light"> ☎ 1-800-266-2443</Button> </p>
+          <p>Emergency : <Button className='header_but' variant="light"> ☎ 108</Button></p>
+          <p>Contact US: <Button className='header_but' variant="light"> ☎ 1-800-266-2443</Button> </p>
         </div>
         <br></br>
       </div>

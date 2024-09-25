@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import './Hospitals.css';
 
 const Hospitals = () => {
+
     return (
         <div className='Hospitals_grid_container'>
 
@@ -17,7 +18,7 @@ const Hospitals = () => {
                 </p>       
 
                 <div className='Hospitals_left'>
-                    <Button className='Hospitals_btn' variant="light">
+                    <Button onClick={()=>{<href></href>}} className='Hospitals_btn' variant="light">
                         <img className='Hospitals_img' src='images/Hospitals/img1.svg'></img>
                         <p>Ahmedabad</p>
                     </Button>
